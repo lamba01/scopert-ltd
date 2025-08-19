@@ -19,13 +19,13 @@ export default function Hero() {
           <span className="absolute left-0 top-0 h-full w-2 bg-yellow-500"></span>
         </div>
 
-        <p className="max-w-xl text-center px-4">
+        <p className="max-w-xl text-center px-4 text-[#D1D1D1]">
           We connect construction and engineering companies with high-quality
           heavy equipment and bulk materials — backed by trusted suppliers and
           efficient UK-wide logistics.
         </p>
 
-        <button className="bg-yellow-500 text-black py-4 px-10 rounded-md font-semibold">
+        <button className="bg-yellow-500 text-black py-4 px-10 rounded-md font-semibold cursor-pointer hover:bg-yellow-400 transition-colors">
           Get Started
         </button>
       </div>
