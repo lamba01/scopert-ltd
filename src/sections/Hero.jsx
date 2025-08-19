@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white z-20 space-y-4">
         <div className="relative">
-          <h1 className="text-center text-2xl sm:text-4xl font-bold pl-6">
+          <h1 className="text-center text-2xl sm:text-4xl font-bold sm:pl-6 ">
             Reliable Supplier of Mining & Construction Machinery
           </h1>
           {/* Yellow block */}
@@ -25,7 +25,7 @@ export default function Hero() {
           efficient UK-wide logistics.
         </p>
 
-        <button className="bg-yellow-500 text-black py-2 px-6 rounded-md font-semibold">
+        <button className="bg-yellow-500 text-black py-4 px-10 rounded-md font-semibold">
           Get Started
         </button>
       </div>
