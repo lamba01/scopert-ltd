@@ -8,6 +8,7 @@ import Expertise from "./sections/Expertise.jsx";
 import Testimonial from "./sections/Testimonial.jsx";
 import Services from "./sections/Services.jsx";
 import Contact from "./sections/Contact.jsx";
+import Footer from "./component/Footer.jsx";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Expertise />
       <Testimonial />
       <Contact />
-
+      <Footer />
       {/* Add other sections as needed */}
     </div>
   );
