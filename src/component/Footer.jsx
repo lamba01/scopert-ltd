@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="max-w-6xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <img src={footerlogo} alt="Scopert logo" className="w-20" />
           <div>
-            <h4 className="text-xl font-semibold">Scopert LTD</h4>
+            <h4 className="text-xl font-semibold">Scopert Limited</h4>
             <span className="italic text-white/70">
               Supplying Industry. Delivering Reliability.
             </span>
@@ -22,8 +22,8 @@ export default function Footer() {
         {/* contact info */}
         <div>
           <p className="text-white/70 capitalize">
-            <strong className="text-white">Address :</strong> 10 GRAPHITE COURT,
-            7 ARLA PLACE, RUISLIP, HA4 0FF
+            <strong className="text-white">Address :</strong> 7 ARLA PLACE,
+            RUISLIP, UNITED KINGDOM, HA4 0FF
           </p>
           <p className="text-white/70">
             <strong className="text-white">Email :</strong>
@@ -45,7 +45,7 @@ export default function Footer() {
 
       <div className="border-t border-gray-300 w-full mt-4"></div>
       <div className="w-full text-center pt-2 text-sm text-gray-200">
-        &copy; {new Date().getFullYear()} Scopert LTD. All rights reserved.
+        &copy; {new Date().getFullYear()} Scopert Limited. All rights reserved.
       </div>
     </footer>
   );

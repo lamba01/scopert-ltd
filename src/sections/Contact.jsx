@@ -70,8 +70,7 @@ export default function Contact() {
         <div className="bg-black w-full h-24"></div>
         <div className="sm:py-8 sm:px-14 p-8">
           <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-            <FaLocationDot />
-            10 GRAPHITE COURT, 7 ARLA PLACE, RUISLIP, HA4 0FF
+            <FaLocationDot />7 ARLA PLACE, RUISLIP, UNITED KINGDOM, HA4 0FF
           </h3>
           <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
             <FaPhone />

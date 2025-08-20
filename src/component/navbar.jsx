@@ -5,7 +5,7 @@ export default function navBar() {
       <div className="flex items-center">
         <img className="h-[50px] w-[50px]" src={logo} alt="" />
         <h3 className=" font-bold text-xl text-yellow-500 hidden sm:block">
-          SCOPERT LTD
+          SCOPERT LIMITED
         </h3>
       </div>
       <div className="flex gap-5 md:gap-10 capitalize">
