@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="w-full py-16 px-4 sm:px-8 lg:px-16">
+    <section className="w-full py-16 px-4 sm:px-8 lg:px-16" id="about">
       {/* Heading + underline block */}
       <div className="relative mb-8 ">
         <h2 className="text-2xl sm:text-3xl font-bold pb-4">About Us</h2>

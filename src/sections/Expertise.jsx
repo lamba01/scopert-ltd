@@ -19,9 +19,12 @@ function Expertise() {
           construction works, we provide the expertise and logistics to keep
           your operations moving without interruption.
         </p>
-        <button className="bg-yellow-500 text-black py-4 px-14 rounded-md font-semibold capitalize cursor-pointer hover:bg-yellow-400 transition-colors">
+        <a
+          href="#about"
+          className="bg-yellow-500 text-black py-4 px-14 rounded-md font-semibold capitalize cursor-pointer hover:bg-yellow-400 transition-colors"
+        >
           about us
-        </button>
+        </a>
       </div>
     </section>
   );

@@ -13,7 +13,10 @@ export default function Contact() {
   };
 
   return (
-    <section className="w-full py-16 flex flex-col sm:flex-row gap-0">
+    <section
+      className="w-full py-16 flex flex-col sm:flex-row gap-0"
+      id="contact"
+    >
       <div className="bg-yellow-500 sm:px-14 px-4 py-6 sm:w-1/2 w-full">
         <div className="relative mb-8">
           <h2 className="text-2xl sm:text-3xl font-bold pb-4">Contact Us</h2>

@@ -25,9 +25,12 @@ export default function Hero() {
           efficient UK-wide logistics.
         </p>
 
-        <button className="bg-yellow-500 text-black py-4 px-10 rounded-md font-semibold cursor-pointer hover:bg-yellow-400 transition-colors">
+        <a
+          href="#contact"
+          className="bg-yellow-500 text-black py-4 px-10 rounded-md font-semibold cursor-pointer hover:bg-yellow-400 transition-colors"
+        >
           Get Started
-        </button>
+        </a>
       </div>
     </section>
   );
