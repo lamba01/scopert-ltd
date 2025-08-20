@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative h-screen bg-no-repeat bg-cover bg-center max-h-[85vh] sm:max-h-[93vh] sm:min-h-[90vh] overflow-hidden mt-10"
       style={{ backgroundImage: `url(${heroimg})` }}
     >
-      <div className="absolute left-0 top-0 h-full w-full backdrop-blur-md sm:backdrop-blur-sm bg-black/70 sm:bg-black/70 z-10" />
+      <div className="absolute left-0 top-0 h-full w-full  bg-black/70 sm:bg-black/70 z-10" />
       <div className="absolute inset-0 bg-black/20 sm:bg-transparent z-10" />
 
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white z-20 space-y-4">

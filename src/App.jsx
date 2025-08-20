@@ -5,6 +5,9 @@ import Banner from "./sections/Banner.jsx";
 import About from "./sections/About.jsx";
 import WhyChooseUs from "./sections/Whychooseus.jsx";
 import Expertise from "./sections/Expertise.jsx";
+import Testimonial from "./sections/Testimonial.jsx";
+import Services from "./sections/Services.jsx";
+import Contact from "./sections/Contact.jsx";
 
 function App() {
   return (
@@ -13,9 +16,13 @@ function App() {
       <Hero />
       <Banner />
       <About />
+      <Services />
       <WhyChooseUs />
       <Expertise />
-      {/* Add other sections as needed */}s
+      <Testimonial />
+      <Contact />
+
+      {/* Add other sections as needed */}
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Expertise() {
       className="relative w-full mt-10 h-[70vh] sm:h-[70vh] py-0 px-4 sm:px-8 lg:px-16 flex flex-col items-center justify-center bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${Expertiseimg})` }}
     >
-      <div className="absolute left-0 top-0 h-full w-full backdrop-blur-md sm:backdrop-blur-sm bg-black/50 sm:bg-black/70 z-10" />
+      <div className="absolute left-0 top-0 h-full w-full  bg-black/70 sm:bg-black/70 z-10" />
       <div className="z-20 text-white text-center space-y-4 sm:w-2/3 w-full">
         <h1 className="text-2xl sm:text-4xl font-bold">
           Built for Contractors. Trusted by Engineers.
