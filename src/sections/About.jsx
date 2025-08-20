@@ -12,7 +12,7 @@ export default function About() {
       <div className="grid sm:grid-cols-2 gap-6">
         {/* Left side (first two paragraphs) */}
         <div className="space-y-4">
-          <p>
+          <p data-aos="fade-right">
             <strong>SCOPERT LIMITED</strong> is a wholesale supplier
             specialising in heavy-duty mining, construction, and civil
             engineering machinery. We focus on sourcing and distributing
@@ -23,7 +23,7 @@ export default function About() {
             professional operators.
           </p>
 
-          <p>
+          <p data-aos="fade-right">
             Beyond machinery supply, we support clients through an end-to-end
             procurement process — acting as a reliable intermediary between
             suppliers and buyers. Our team manages the complete logistics cycle,
@@ -34,7 +34,7 @@ export default function About() {
 
         {/* Right side (third paragraph) */}
         <div>
-          <p>
+          <p data-aos="fade-left" data-aos-delay="200">
             In addition to machinery, we also supply a wide range of bulk
             construction materials and support the delivery of both domestic and
             commercial building projects. Whether you’re overseeing a mining

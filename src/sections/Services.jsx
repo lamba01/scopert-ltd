@@ -13,7 +13,10 @@ export default function Services() {
       </div>
 
       {/* Heavy Machinery - Left */}
-      <div className="bg-neutral-900 text-neutral-200 p-6 rounded-md max-w-2xl space-y-4 transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg">
+      <div
+        data-aos="flip-left"
+        className="bg-neutral-900 text-neutral-200 p-6 rounded-md max-w-2xl space-y-4 transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg"
+      >
         <FaIndustry size={40} className="text-yellow-500" />
         <h3 className="text-lg font-bold text-white">Heavy Machinery Supply</h3>
         <p className="mb-6">
@@ -31,7 +34,10 @@ export default function Services() {
       </div>
 
       {/* Construction Materials - Right */}
-      <div className="bg-neutral-900 text-neutral-200 p-6 rounded-md max-w-2xl ml-auto space-y-4 transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg">
+      <div
+        data-aos="flip-right"
+        className="bg-neutral-900 text-neutral-200 p-6 rounded-md max-w-2xl ml-auto space-y-4 transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg"
+      >
         <FaCubes size={40} className="text-yellow-500" />
         <h3 className="text-lg font-bold text-white">
           Construction Material Supply
@@ -51,7 +57,10 @@ export default function Services() {
       </div>
 
       {/* Procurement & Logistics - Left */}
-      <div className="bg-neutral-900 text-neutral-200 p-6 rounded-md max-w-2xl space-y-4 transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg">
+      <div
+        data-aos="flip-right"
+        className="bg-neutral-900 text-neutral-200 p-6 rounded-md max-w-2xl space-y-4 transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg"
+      >
         <FaTruck size={40} className="text-yellow-500" />
         <h3 className="text-lg font-bold text-white">
           Procurement & Logistics Support

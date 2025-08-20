@@ -4,6 +4,7 @@ import Expertiseimg from "../assets/expertise.png";
 function Expertise() {
   return (
     <section
+      data-aos="flip-up"
       className="relative w-full mt-10 h-[70vh] sm:h-[70vh] py-0 px-4 sm:px-8 lg:px-16 flex flex-col items-center justify-center bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${Expertiseimg})` }}
     >

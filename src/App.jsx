@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./component/navbar.jsx";
 import Hero from "./sections/Hero.jsx";
 import Banner from "./sections/Banner.jsx";
@@ -9,10 +9,19 @@ import Testimonial from "./sections/Testimonial.jsx";
 import Services from "./sections/Services.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./component/Footer.jsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      easing: "ease-in-out",
+    });
+  }, []);
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Banner />

@@ -4,7 +4,7 @@ import chooseimg from "../assets/choose.png";
 
 export default function WhyChooseUs() {
   return (
-    <section className="w-full py-0 px-4 sm:px-8 lg:px-16">
+    <section className="w-full py-0 px-4 sm:px-8 lg:px-16" data-aos="fade-up">
       <div className="relative mb-8">
         <h2 className="text-2xl sm:text-3xl font-bold pb-4">Only the best</h2>
         <span className="absolute left-0 bottom-0 h-1 w-10 bg-yellow-500"></span>

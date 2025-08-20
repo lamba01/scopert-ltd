@@ -29,7 +29,11 @@ export default function Testimonial() {
 
       <div className="grid sm:grid-cols-3 gap-6">
         {testimonials.map((t, index) => (
-          <div key={index} className="bg-white p-6 rounded-md shadow-sm">
+          <div
+            key={index}
+            className="bg-white p-6 rounded-md shadow-sm"
+            data-aos="fade-up"
+          >
             <div className="text-yellow-500 mb-2 text-center">★★★★★</div>
             <p>{`“${t.quote}”`}</p>
             <span className="block mt-4 font-semibold">— {t.author}</span>
